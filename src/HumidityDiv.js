@@ -5,7 +5,7 @@ let HumidityDiv = (props)=>{
         <>
             <div className='Humidity-div'>
                 <h1>{props.icon}</h1>
-                <p><span style={{fontWeight:"bold"}}>{props.value}</span><br/><span>{props.text}</span></p>
+                <p><span style={{fontWeight:"bold"}}>{props.value}</span><span>hmmm</span><br/><span>{props.text}</span></p>
             </div>
         </>
     )
